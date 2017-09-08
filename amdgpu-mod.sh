@@ -78,7 +78,7 @@ TPL=$(cat <<EOF
  
  static uint16_t scale_fan_gain_settings(uint16_t raw_setting)
  {
-@@ -770,10 +780,14 @@
+@@ -774,10 +784,14 @@
  
  	polaris10_get_sclk_range_table(hwmgr, &(smu_data->smc_state_table));
  
